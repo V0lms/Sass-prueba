@@ -1,0 +1,39 @@
+body {
+  background-color: #ddd;
+  font-size: 16px;
+}
+body h1 {
+  padding: 2% 10%;
+}
+body p {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  text-align: center;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 1%;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: #d0b414;
+}/*# sourceMappingURL=base.css.map */

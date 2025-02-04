@@ -1,0 +1,52 @@
+$colorFondo: #ddd;
+$tamanyoLetra: 16px;
+$tamanyoNav: 25px;
+
+body {
+
+    background-color: $colorFondo;
+    font-size: $tamanyoLetra;
+
+    h1{
+        padding: 2% 10%;
+    }
+    p{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    text-align: center;
+    font-size: $tamanyoNav;
+    background-color:  black;
+    color: white;
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin: 1%;
+    }
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+            color: #d0b414;
+        }
+    }
+}

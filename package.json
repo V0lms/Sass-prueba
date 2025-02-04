@@ -1,0 +1,12 @@
+{
+  "name": "sassdev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass imput.scss output.css --watch"
+  },
+  "keywords": [],
+  "author": "Victor",
+  "license": "ISC",
+  "description": ""
+}
