@@ -1,27 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/base.css">
+    <title>Animated Portfolio</title>
+    <link rel="stylesheet" href="css/base.css">
 </head>
-<body>
 
-    <!-- <p>Texto con Sass</p> -->
+<body>
+    <div class="portfolio">
+        <header class="header">
+            <div class="profile">
+                <div class="profile-pic"></div>
+                <h1 class="title">Victor Olmos</h1>
+                <p class="subtitle">Web Developer</p>
+            </div>
+            <nav class="menu">
+                <a href="#experience" class="menu-link active">Experience</a>
+                <a href="#works" class="menu-link">Works</a>
+                <a href="#about" class="menu-link">About Me</a>
+            </nav>
+        </header>
+
+        <main class="content">
+            <section id="experience" class="timeline">
+                <h2 class="section-title">Educacion</h2>
+                <ul class="experience-list">
+                    <li class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="card">
+                            <h3>Grado superior Desarrollo de aplicaciones web</h3>
+                            <p class="company">U-Tad</p>
+                            <p class="date">2023 - 2025</p>
+                        </div>
+                    </li>
     
-    <nav>
-        <ul>
-            <li><a src="#">Inicio</a></li>
-            <li><a src="#">Más contenido</a></li>
-            <li><a src="#">Sobre nosotros</a></li>
-        </ul>
-    </nav>
-    <div>
-        <h1>Sobre nosotros</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident in, laboriosam, commodi quis ipsam architecto aut quas obcaecati magnam reiciendis aspernatur eos laudantium odio itaque, tempora ut voluptatum animi culpa.</p>
-        <p>        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quisquam illo provident, ea hic eius consectetur corporis, sit, ipsam doloremque nesciunt odio recusandae ab asperiores nam totam distinctio quidem. Fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eum deleniti nisi obcaecati, hic, a itaque cumque fuga provident impedit, voluptas repudiandae quis! Id iusto voluptate possimus! Architecto, nemo odit.
-        </p>
+                    <li class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="card">
+                            <h3>Cisco CCNA v7</h3>
+                            <p class="company">CISCO Networking Academy</p>
+                            <p class="date">2022</p>
+                        </div>
+                    </li>
+    
+                    <li class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="card">
+                            <h3>Grado medio Servicios microinformaticos y redes</h3>
+                            <p class="company">La salle sagrado corazón</p>
+                            <p class="date">2021 - 2023</p>
+                        </div>
+                    </li>
+                </ul>
+                <h2 class="section-title">Experiencia profesional</h2>
+                <ul class="experience-list">
+                    <li class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="card">
+                            <h3>Producto e IT</h3>
+                            <p class="company">We Are Knitters</p>
+                            <p class="date">03/2023 - 09/2023</p>
+                            <ul class="achievements">
+                                <li>Practicas del grado medio</li>
+                                <li>Extension de contrato en el departamento de producto</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section id="works" class="works">
+                <h2 class="section-title">Featured Works</h2>
+                <div class="works-grid">
+                    <div class="work-card">
+                        <div class="work-image"></div>
+                        <h3>E-commerce Platform</h3>
+                        <p>A full-featured online store with React and Node.js</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="work-link">View Project</a>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-image"></div>
+                        <h3>Task Management App</h3>
+                        <p>Collaborative project management tool</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+                        <a href="#" class="work-link">View Project</a>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-image"></div>
+                        <h3>Portfolio Website</h3>
+                        <p>Responsive portfolio with animations</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">SCSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="work-link">View Project</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate Frontend Developer with over 8 years of experience in creating responsive
+                            and user-friendly web applications. My journey in web development started during my
+                            university years, and I've been in love with creating beautiful user interfaces ever since.
+                        </p>
+                        <p>When I'm not coding, you can find me contributing to open-source projects, writing technical
+                            blog posts, or mentoring junior developers.</p>
+                    </div>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Vue.js</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3/SCSS</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
 </body>
+
 </html>
